@@ -1,6 +1,41 @@
 .container{
     display: flex;
-    flex-wrap: wrap-reverse;
+    /* default flex-direction:row */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: nowrap; */
+    /* flex-wrap: wrap-reverse; */
+    /* flex-flow: [flex-direction] [flex-wrap]; */
+    /* flex-flow: row-reverse nowrap; */
+
+    /* main axis alignment */
+    /* default */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+
+    /* align-item */
+    /* default */
+    /* align-items: stretch; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+
+    /* align-content */
+
+    /* align-content: flex-end; */
+    /* flex-direction: column; */
+    /* align-content:center; */
+    /* align-items: space-around; */
+    align-items: space-evenly;
+
+
+
+    
 
 }
 
